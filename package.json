@@ -1,0 +1,23 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test-ct": "playwright test -c playwright-ct.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/experimental-ct-react": "^1.51.1",
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.1"
+  },
+  "dependencies": {
+    "@types/react": "^19.1.1",
+    "@types/react-dom": "^19.1.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
