@@ -28,6 +28,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <input type="text" style={{ height: '1rem', paddingBlock: '1rem' }} />
     </>
   )
 }
